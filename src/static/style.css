@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: hxb;
+    src: url(./hxb-font.otf);
+}
+#font{
+    color: red;
+    font-size: 16px;
+}

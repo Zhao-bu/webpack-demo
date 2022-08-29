@@ -1,1 +1,4 @@
-console.log('hello')
+
+const str = 'hello'
+
+export {str} 

@@ -1,7 +1,7 @@
 const { merge } = require('webpack-merge')
 const common = require('./webpack.common')
 const { resolveApp } = require('./paths')
-const contentBase = require('webpack-dev-server')
+// const contentBase = require('webpack-dev-server')
 const path = require('path')
 module.exports = merge(common, {
     // 开发模式
