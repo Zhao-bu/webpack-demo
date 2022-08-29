@@ -2,16 +2,16 @@
 
 ```js
 - config
-	- paths.js				//封装路径方法
-	- webpack.common.js	    //通用环境配置文件
-	- webpack.dev.js	  		//开发环境配置文件
+	- paths.js			//封装路径方法
+	- webpack.common.js	    	//通用环境配置文件
+	- webpack.dev.js	  	//开发环境配置文件
 	- webpack.prod.js		//生产环境配置文件
 - dist
-	- bundle.js		//输出文件
-	- index.html	//生成的html文件，自动引入了bundle.js
+	- bundle.js			//输出文件
+	- index.html			//生成的html文件，自动引入了bundle.js
 - src
-	- static		//静态资源文件夹
-	- index.js		//入口文件
+	- static			//静态资源文件夹
+	- index.js			//入口文件
 	- hello.js
 - package-lock.json
 - package.json
